@@ -1,0 +1,180 @@
+body {
+  background-image: linear-gradient(#8B9091, #E3EDED);
+  background-image: url(https://data.1freewallpapers.com/download/bungalows-on-the-clear-ocean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  font-family: 'Open Sans', sans-serif;
+  width: 90%;
+  margin: auto;
+  
+  color: rgb(53, 50, 50);
+
+}
+
+h1:first-child {
+  background-color: yellow;
+}
+
+ul {
+  display: inline-block;
+}
+
+li:first-child {
+  margin: 5px auto;
+  padding-right: 25px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/bien.png?token=ARNZLGEZYY4OSETPVSCK74K7UE5MC);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+li:nth-child(2) {
+  margin: 5px auto;
+  padding-right: 25px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/mal.png?token=AP4VETVEH3XFTZR336QG4227UF3B4);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+li:nth-child(3) {
+  margin: 5px auto;
+  padding-right: 25px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/chat.png?token=AP4VETTUFQ3XMAKIACXUJTK7UF3TK);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+blockquote {
+  margin-top: 30%;
+  
+  width: 45%;
+  margin-left: 30%;
+  font-size: 160%;
+  background-color: rgb(202, 199, 199);
+  border-left: firebrick 3px solid;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 30px solid;
+  font-style: italic;
+
+}
+
+.Bad {
+  text-transform: uppercase;
+  color: red;
+}
+
+.Good {
+  text-transform: uppercase;
+  color: green;
+}
+
+.villagers {
+  border-left: yellow 3px solid;
+
+}
+
+.farmer {
+  border-left: orangered 3px solid;
+}
+
+
+a:link {
+  color: red;
+}
+
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+table {
+
+
+  border: 1px solid black;
+
+}
+
+th {
+
+
+  border: 1px solid black;
+
+}
+
+td {
+  border: 1px solid black;
+}
+
+td:nth-child(even) {
+  background-color: lightgray;
+
+}
+
+td:nth-child(odd) {
+  background-color: white;
+}
+
+.forme {
+  line-height: 3;
+ 
+}
+.figa{
+  display: flex;
+  opacity: 1;
+  cursor: pointer;
+  background-color: lightgray;
+  border: 5px solid rgb(46, 45, 45);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 30px;
+  width: 500px;
+	height: 500px;
+}
+
+
+.one {
+  display: flex;
+  opacity: 1;
+  cursor: pointer;
+  background-color: lightgray;
+  border: 5px solid rgb(46, 45, 45);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 30px;
+  
+}
+img{
+  width: 500px;
+	height: 500px;
+}
+
+
+.two{
+  display: flex;
+  opacity: 1;
+  cursor: pointer;
+  background-color: lightgray;
+  border: 5px solid rgb(46, 45, 45);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 30px; 
+  justify-content: right;
+  
+  padding-bottom: 50PX;
+  
+  
+}
